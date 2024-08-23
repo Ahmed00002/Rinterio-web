@@ -15,4 +15,7 @@
   .subtitle {
     @apply text-xl font-extrabold;
   }
+  .img-hover:hover img {
+    @apply rounded-xl;
+  }
 }
