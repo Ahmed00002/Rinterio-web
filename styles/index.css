@@ -9,4 +9,10 @@
   .center {
     @apply max-w-[1440px] mx-auto py-8 lg:py-14 px-5 md:px-8 lg:px-32;
   }
+  .para {
+    @apply text-base font-medium text-colorAccent;
+  }
+  .subtitle {
+    @apply text-xl font-extrabold;
+  }
 }

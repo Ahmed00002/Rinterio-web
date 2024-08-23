@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["*"],
+  content: ["index.html"],
   theme: {
     extend: {
       colors: {
@@ -11,6 +11,13 @@ module.exports = {
         colorBadge: "rgba(171, 239, 95, 0.2)",
 
         extra: "rgba(171, 239, 95, 0.5)",
+
+        // header gradient
+        gradientEnd: "rgba(255, 255, 255, 1)",
+        gradientStart: "rgba(255, 255, 255, 0)",
+
+        // progress card
+        card1: "rgba(231, 193, 211, 1)",
       },
       fontFamily: {
         defFont: ["Manrope", "sans-serif"],
@@ -22,7 +29,7 @@ module.exports = {
         md: "768px",
         // => @media (min-width: 768px) { ... }
 
-        lg: "1440px",
+        lg: "1240px",
         // => @media (min-width: 1024px) { ... }
 
         xl: "1280px",
