@@ -13,7 +13,7 @@
     @apply text-base font-medium text-colorAccent;
   }
   .subtitle {
-    @apply text-xl font-extrabold;
+    @apply text-xl font-extrabold text-colorSecondary;
   }
   .img-hover:hover img {
     @apply rounded-xl;
